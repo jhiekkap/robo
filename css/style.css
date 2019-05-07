@@ -5,4 +5,7 @@ body {
 form {
     padding:10px;
 }
+.logo {
+    max-width: 100px;
+}
 
