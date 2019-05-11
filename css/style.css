@@ -6,6 +6,12 @@ form {
     padding:10px;
 }
 .logo {
-   width: 20px;
+   width: 200px;
+}
+.error {
+    background-color: yellow;
 }
 
+.robo {
+    max-width: 30;
+}

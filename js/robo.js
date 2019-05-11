@@ -3,11 +3,11 @@ let move = null;
 let error = document.querySelector('.error');
 
 const wave = () => {
-    if(document.querySelector('img').src === "http://localhost:8080/photos/heiluu.png"){
+    if(document.querySelector('.robo').src === "http://localhost:8080/photos/heiluu.png"){
         console.log("KÄDET ALAS");
-        document.querySelector('img').src = "photos/perus.png";
+        document.querySelector('.robo').src = "photos/perus.png";
     } else {
-        document.querySelector('img').src = "photos/heiluu.png";
+        document.querySelector('.robo').src = "photos/heiluu.png";
         console.log("KÄDET YLÖS");
     }
 }
