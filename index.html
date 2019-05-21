@@ -10,30 +10,32 @@
 </head>
 
 <body>
-
     <header>
         <h1>OTTO-OHJELMOIJA<img class="logo" src="photos/LogoMakr_8dlNFs.png" alt="logo"></h1>
     </header>
-    <div>
-        <p>Kokeile ohjelmointia!</p>
-        <p>Komenna Roboa:</p>
-        <p>Heiluta käsiä: robotto.wave();</p>
-        <p>Lopeta heilutus: robotto.stop();</p>
+    <div class="container">
+        <div class="text">
+            <h4>Kokeile ohjelmointia!</h4>
+            <h4>Komenna Roboa:</h4>
+            <h4>Heiluta käsiä: robotto.wave();</h4>
+            <h4>Lopeta heilutus: robotto.stop();</h4>
+        </div>
+        <div class="kokeilua">
+            <div class="error"></div>
+            <form>
+                <input id="code" type="text" name="code" placeholder="koodaa!" required="required" />
+                <button>SUORITA</button>
+            </form>
+            <img class="robo" src="photos/perus.png" alt="roboPerusAsennossa">
+        </div>
     </div>
-    <div class="error"></div>
-    <form>
-        <input id="code" type="text" name="code" placeholder="koodaa!" required="required" />
-        <button>SUORITA</button>
-    </form>
-    <div class="kokeilua">
-        <img class="robo" src="photos/perus.png" alt="roboPerusAsennossa">
-    </div>
-
     <br>
     <a href="softaa.html" target="_blank">Koodiesimerkkejä täältä</a>
-
     <br><br>
-    <footer>Neulastie 8, 00410 Helsinki, GSM: +358 50 3331234, email: otto@ohjelmoija.fi</footer>
+    <footer>
+        <p>Neulastie 8, 00410 Helsinki, GSM: +358 50 3331234</p>
+        <p>email: otto@ohjelmoija.fi</p>
+    </footer>
     <script src="js/robo.js" async defer></script>
 </body>
 

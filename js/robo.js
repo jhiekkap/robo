@@ -12,6 +12,7 @@ const wave = () => {
     }
 }
 form.addEventListener('submit', (event) => {
+    event.preventDefault();
     console.log('click');
     if(form.code.value === 'robotto.wave();'){
          
@@ -29,6 +30,6 @@ form.addEventListener('submit', (event) => {
         console.log('ERROR!!')
         error.innerHTML = 'SYNTAX ERROR!!';
     }
-    event.preventDefault();
+    
 });
  

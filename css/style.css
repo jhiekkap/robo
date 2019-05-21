@@ -1,17 +1,30 @@
 body {
     background-color: hotpink;
 }
-
+header {
+    background-color: aqua;
+}
+.container {
+    
+}
+.text {
+    display: inline-block;
+    padding:20px;
+}
+.kokeilua {
+    display: inline-block;
+    padding:20px;
+}
 form {
     padding:10px;
 }
 .logo {
-   width: 200px;
+   width: 300px;
 }
 .error {
     background-color: yellow;
 }
 
 .robo {
-    max-width: 30;
+    max-height: 100px;
 }
