@@ -1,0 +1,31 @@
+< style>
+    .keski {
+    text - align: center;
+    } < /style> < /head> < body>
+        < div class="keski">
+            < form name="lomake">
+                < input type="text" name="t1">
+                    < br />
+                        < br />
+                            < input type="button" value=" Suorita " onclick="Suorita()">
+                                < input type="button" value=" Tyhjennä " onclick="Tyhja()">
+                                    < /form> < p id="nayta">
+                                        < img class="robo" src="perus.png" width=30 %>
+                                            < /p> < /div> < script>
+                                                function Suorita() {
+                                                var komento = document.forms["lomake"]["t1"].value;
+                                                var i = 0;
+                                                if (komento == "robotto.wave();") {
+                                                document.getElementById("nayta").innerHTML = "<center>" + "<img
+                                                        class='robo' src='perus.png' width=30%>" + "<img class='robo'
+                                                        src='heiluu.png' width=30%>" + "</center>";
+                                                w3.slideshow(".robo", 1000);
+                                                } else {
+                                                document.getElementById("nayta").innerHTML = "Syntax error!!";
+                                                }
+                                                }
+
+                                                function Tyhja() {
+                                                document.forms["lomake"]["t1"].value = "";
+                                                document.getElementById("nayta").innerHTML = "";
+                                                } < /script> < /body> < /html>

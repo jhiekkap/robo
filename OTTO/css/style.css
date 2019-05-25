@@ -1,0 +1,14 @@
+
+form {
+    padding:10px;
+}
+.logo {
+   width: 300px;
+}
+.error {
+    background-color: yellow;
+}
+
+.robo {
+    max-height: 150px;
+}
